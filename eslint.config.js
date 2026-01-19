@@ -30,7 +30,7 @@ export default tsEslint.config([
         ecmaVersion: 'latest',
         ecmaFeatures: { jsx: true, globalReturn: false },
         sourceType: 'module',
-        project: [ './tsconfig.node.json', './tsconfig.app.json' ],
+        // project: [ './tsconfig.node.json', './tsconfig.app.json' ],
         projectService: true,
         tsconfigRootDir: import.meta.dirname
       },
